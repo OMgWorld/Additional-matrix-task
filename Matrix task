@@ -1,4 +1,4 @@
-a = 4
+a = int(input())
 v = [i for i in range(a+1, a**2 +1)]
 for k in range(1,a+1): #first independent line 
     print(k, end=' ')
@@ -19,51 +19,72 @@ d = 0
 w = 0
 r = 0
 u = 0
+z = 0
+b =0
+ww = 1
+kk = 2
+rr = 2
+ddd = 2
+ll = 1
 s = -1
 p = 0
 ss = -1
-while v[m] != a**2: #general loop
-    s = 0
-    ss += 1
-    d = 0
-    u += 1
-    p += 1
-    for j in matrix: # and next loops for each side 
-        matrix[s + ss][k-p] = v[m] 
-        d += 1
-        s += 1
-        m += 1
-    while d == a-u:
-            break
-    d = 0
-    for j in matrix:
-        matrix[e-1][n-2] =v[m]
-        n -= 1
-        m += 1
-        d += 1
-    while d == a-1:
-        break
-    d = 0
-    if a != 2:
-        for j in matrix:
-            matrix[f-2][0] =v[m]
-            m += 1
-            f -= 1
+if a != 1:
+    while v[m] != a**2: #general loop
+        s = 0
+        n = 0
+        f = 0
+        r = 0
+        ss += 1
+        d = 0
+        u += 1
+        p += 1
+        for j in matrix: # and next loops for each side 
+            matrix[s + ss][k-p] = v[m] 
             d += 1
-            if d == a-2:
+            s += 1
+            m += 1
+            if d == a-u:
                 break
         d = 0
         for j in matrix:
-            matrix[l][r+1] = v[m]
+            matrix[e-ww][n-kk] =v[m]
+            n -= 1
             m += 1
-            r += 1
             d += 1
-            if d == a-2:
+            if d == a-u:
                 break
-        if d == a-1:
-            v[m] == a**2
-        u += 1
-    if m == (a**2 - a):
-        break
-for i in matrix:
-    print(*i)
+        if m >= len(v):
+            break
+        d = 0
+        if a != 2:
+            for j in matrix:
+                matrix[f-rr][z + b] =v[m]
+                m += 1
+                f -= 1
+                d += 1
+                if d == a-ddd:
+                    break
+            d = 0
+            for j in matrix:
+                matrix[l+w][r+ll] = v[m]
+                m += 1
+                r += 1
+                d += 1
+                if d == a-ddd:
+                    break
+            if d == a-1:
+                v[m] == a**2
+            u += 1
+        kk += 1
+        ww += 1
+        rr += 1
+        b += 1
+        ddd += 2
+        ll += 1
+        w += 1
+        if m == (a**2 - a):
+            break
+    for i in matrix:
+        if a != 1:
+            print(*i)
