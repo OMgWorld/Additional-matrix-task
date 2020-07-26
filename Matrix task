@@ -9,27 +9,11 @@ for i in range(a-1):
     for j in range(a):
         matrix[i].append(0)
 
-m = 0
-k = 0
-l = 0
-e = 0
-n = 0
-f = 0
-d = 0
-w = 0
-r = 0
-u = 0
-z = 0
-b =0
-ww = 1
-kk = 2
-rr = 2
-ddd = 2
-ll = 1
-s = -1
-p = 0
-ss = -1
-if a != 1:
+m,k,l,e,f,d,w,r,u,z,b,p = 0,0,0,0,0,0,0,0,0,0,0,0 #create variables for moving in matrix 
+ww,ll = 1,1
+kk,rr,ddd, = 2,2,2
+s,ss = -1,-1
+if a != 1:   # an exception
     while v[m] != a**2: #general loop
         s = 0
         n = 0
